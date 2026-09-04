@@ -116,20 +116,23 @@ source venv/bin/activate
 # Windows (Command Prompt):
 venv\Scripts\activate.bat
 # Windows (PowerShell):
-.\venv\Scripts\Activate.ps1```
+.\venv\Scripts\Activate.ps1
+```
 
 ### 4.2 Install Dependencies
 Install the required packages:
 
 ```bash
 pip install --upgrade pip
-pip install discord.py gspread oauth2client python-dotenv```
+pip install discord.py gspread oauth2client python-dotenv
+```
 
 ### 4.3 Create Project Files
 1. Move your credentials.json key file into this root project directory.
 2. Create a .env file in the root folder with the following:
 ```bash
-DISCORD_TOKEN=your_copied_discord_bot_token_here```
+DISCORD_TOKEN=your_copied_discord_bot_token_here
+```
 3. Save your Python script as main.py in the root folder.
 
 ### 4.4 Directory Structure Verification
@@ -139,16 +142,19 @@ albion-comp-bot/
 ├── venv/
 ├── .env
 ├── credentials.json
-└── main.py```
+└── main.py
+```
 
 ## Step 5: Running the Bot
 1. Ensure your virtual environment is active ((venv) shown in terminal)
 2. Start the bot:
 ```bash
-python main.py```
+python main.py
+```
 3. In configured correctly, your console will output:
 ```
-Logged in as YourBotName#1234```
+Logged in as YourBotName#1234
+```
 4. On your Discord server, create a role named 'Caller' and assign it to yourself or your group callers (users without this role will not be able to run caller commands).
 
 ## Step 6: User Guide & Bot Usage
